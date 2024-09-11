@@ -1,0 +1,49 @@
+.contianer{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0px auto;
+}
+.form-container{
+   width: 50%;
+}
+.form-content-main{
+    width: 100%;
+}
+.image{
+    position: relative;
+}
+.image img{
+    width: 100%;
+}
+.form-content-main{
+	background-image:url(assest/form-clippaper-min-1.png);
+}
+.form-content-main form{
+    width: 100%;
+    position: absolute;
+    top: 105px;
+    left: 100px;
+    max-width: 300px;
+}
+form p{
+    text-align: center;
+}
+.form-content input{
+    border: none;
+    width: 100%;
+    padding: 20px 0px;
+	background: transparent;
+}
+.form-content select{
+    border: none;
+    width: 100%;
+    padding: 20px 0px;
+	background: transparent;
+}
+input.submit-btn{
+    width: 50%;
+    padding: 15px 0px;
+    margin: 15px 0px;
+    background-color: #8CC33F;
+    color: white;
+}

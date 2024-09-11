@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #F3F2ED;
+    padding: 0px 0px 40px 0px;
+    width: 70%;
+    margin: auto;
+}
+.first-column{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.first-column .box {
+    height: 50vh;
+    background-color: #CCC8B3;
+    margin-top: 5px;
+}
+.second-column{
+    width: 70%;
+    margin: auto;
+    background-color: #F6F0E0;
+    height: 70vh;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+footer{
+    margin: auto;
+    width: 70%;
+    background-color: #BFBD93;
+}

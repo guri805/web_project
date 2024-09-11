@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+details{
+    position: relative;
+}
+details ul{
+    position: absolute;
+    right: 10px;
+    list-style: none;
+    width: max-content;
+    background-color: #e0aeae;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px;
+}
+header details ul li{
+    padding: 5px 15px;
+    cursor: pointer;
+}
+header details ul li:hover{
+    background-color: antiquewhite;
+}
+header details summary{
+    list-style: none;
+}

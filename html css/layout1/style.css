@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav{
+    background-color: #d1d1d1;
+    padding: 25px 5px;
+    max-width: 55%;
+    margin: auto;
+}
+.main-content{
+    display: flex;
+    width: 55%;
+    margin: auto;
+    gap: 10px;
+}
+.main-content h4{
+    margin-bottom: 10px;
+}
+#left-content{
+    width: 85%;
+}
+#center-content{
+    width: 300%;
+}
+#center-content p{
+    margin-bottom: 5px;
+}
+#right-content{
+    width: 115%;
+}
+footer{
+    background-color: #d1d1d1;
+    padding: 5px 5px;
+    width: 55%;
+    margin: auto;
+}
