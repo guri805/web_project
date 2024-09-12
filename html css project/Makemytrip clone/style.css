@@ -20,11 +20,13 @@
   height: 550px;
 }
 
+/* ++++++++++++++++++++ nav content start++++++++++++++++++++++ */
 .nav-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px 0px;
+  margin-bottom: 30px;
 }
 
 .logo img {
@@ -38,10 +40,12 @@
   align-items: center;
   gap: 8px;
 }
-.nav-btn a{
+
+.nav-btn a {
   all: unset;
 }
-.nav-button{
+
+.nav-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,22 +59,27 @@
   background: rgb(83, 178, 254);
   background: linear-gradient(90deg, rgba(83, 178, 254, 1) 0%, rgba(6, 90, 243, 1) 110%);
 }
+
 .nav-btn-one {
   padding: 8px 10px;
   gap: 13px;
 }
-.nav-user-icon img{
+
+.nav-user-icon img {
   width: 100%;
   max-width: 23px;
 }
-.down-arrow img{
+
+.down-arrow img {
   width: 100%;
   max-width: 11px;
   margin-top: 3px;
 }
+
 .nav-one-arrow {
   margin-left: 22px;
 }
+
 .nav-btn-two {
   padding: 12px 10px;
   gap: 10px;
@@ -78,4 +87,104 @@
   font-size: 11px;
 }
 
+/* ++++++++++++++++++++ nav content end ++++++++++++++++++++++ */
+/* ++++++++++++++++++++ landing main content start ++++++++++++++++++++++ */
+.landing-main-content {
+  position: relative;
+  padding-top: 50px;
+}
+
+.main-box-content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.box-one-main-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 930px;
+  margin: 0px auto;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  left: 10%;
+  border-radius: 10px;
+  top: 0px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.box-one-main-content span {
+  width: 100%;
+  max-width: 82px;
+  text-align: center;
+}
+
+.box-one-main-content span img {
+  width: 38px;
+}
+
+.radio-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 63px 10px 0px;
+  max-width: 1170px;
+}
+
+.radio-button input {
+  margin-left: 28px;
+}
+
+.from-to-boxes {
+  display: flex;
+  margin: 10px 24px;
+  max-width: 1170px;
+}
+
+.from-to-box {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+p.state {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.from,.to{
+  width: 100%;
+  max-width: 306px;
+}
+
+.destiny {
+  margin-bottom: 10px;
+}
+
+span.date {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+span.month-year {
+  font-size: 19px;
+}
+
+p.week,p.travel-type {
+  margin-top: 5px;
+}
+span.month-year,.type {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.from-to-box:nth-of-type(1) {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.from-to-box:nth-of-type(5) {
+  border-radius: 0px 8px 8px 0px;
+}
+
+/* ++++++++++++++++++++ landing main content end ++++++++++++++++++++++ */
 /* ++++++++++++++++++++landing page content end++++++++++++++++++++++ */
