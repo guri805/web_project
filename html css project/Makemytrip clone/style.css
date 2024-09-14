@@ -12,6 +12,10 @@
   margin: 0px auto;
 }
 
+p {
+  font-size: 14px;
+}
+
 /* ++++++++++++++++++++landing page content start++++++++++++++++++++++ */
 .landing-page {
   background-image: url("image/bg1.jpg");
@@ -152,7 +156,8 @@ p.state {
   font-weight: 700;
 }
 
-.from,.to{
+.from,
+.to {
   width: 100%;
   max-width: 306px;
 }
@@ -170,10 +175,13 @@ span.month-year {
   font-size: 19px;
 }
 
-p.week,p.travel-type {
+p.week,
+p.travel-type {
   margin-top: 5px;
 }
-span.month-year,.type {
+
+span.month-year,
+.type {
   font-size: 23px;
   font-weight: 400;
 }
@@ -186,5 +194,44 @@ span.month-year,.type {
   border-radius: 0px 8px 8px 0px;
 }
 
+
+.landing-last-main-content {
+  max-width: 1150px;
+  margin: 0px auto;
+}
+
+.box-one {
+  display: inline-block;
+}
+
+.box-one p {
+  font-weight: 900;
+  line-height: 16px;
+}
+
+.box-one p:nth-last-child(1) {
+  background-image: linear-gradient(to right, rgb(67, 225, 168), rgb(33, 147, 147));
+  color: #fff;
+  padding: 5px;
+  border-radius: 9px;
+  text-align: center;
+  margin-top: 5px;
+}
+.last-content {
+  display: flex;
+  gap: 40px;
+}
+.last-boxes-container {
+  display: flex;
+  gap: 40px;
+}
+.last-box {
+  display: flex;
+  gap: 20px;
+  line-height: 17px;
+  border: 1px solid;
+  padding: 7px;
+  border-radius: 14px;
+}
 /* ++++++++++++++++++++ landing main content end ++++++++++++++++++++++ */
 /* ++++++++++++++++++++landing page content end++++++++++++++++++++++ */
